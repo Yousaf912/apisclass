@@ -1,0 +1,50 @@
+[debug] [2024-06-01T05:43:42.217Z] ----------------------------------------------------------------------
+[debug] [2024-06-01T05:43:42.227Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-06-01T05:43:42.228Z] CLI Version:   13.8.2
+[debug] [2024-06-01T05:43:42.230Z] Platform:      win32
+[debug] [2024-06-01T05:43:42.230Z] Node Version:  v20.12.2
+[debug] [2024-06-01T05:43:42.231Z] Time:          Fri May 31 2024 22:43:42 GMT-0700 (Pacific Daylight Time)
+[debug] [2024-06-01T05:43:42.232Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-01T05:43:42.243Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-06-01T05:43:42.476Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-01T05:43:42.477Z] > authorizing via signed-in user (yousafva9@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dell\Desktop\apis class\apisclass
+
+[debug] [2024-06-01T05:43:43.130Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-06-01T05:43:43.130Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-06-01T05:43:50.550Z] > refreshing access token with scopes: []
+[debug] [2024-06-01T05:43:50.553Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-06-01T05:43:50.553Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-01T05:43:50.941Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-06-01T05:43:50.941Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-01T05:43:50.955Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-06-01T05:43:51.621Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-06-01T05:43:51.621Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project assigment8-82554 (Assigment8) 
+[info] 
+=== Hosting Setup
+[debug] [2024-06-01T05:43:52.788Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/assigment8-82554 [none]
+[debug] [2024-06-01T05:43:53.099Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/assigment8-82554 200
+[debug] [2024-06-01T05:43:53.099Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/assigment8-82554 {"projectId":"assigment8-82554","projectNumber":"304583067286","displayName":"Assigment8","name":"projects/assigment8-82554","resources":{"hostingSite":"assigment8-82554"},"state":"ACTIVE","etag":"1_78eb0508-9afb-4acb-93c9-62671be8e423"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
