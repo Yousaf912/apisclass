@@ -1,0 +1,45 @@
+.maindiv{
+    background: url(https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr50g6iar0tclcbau9oh2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.inptdiv{
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.getdatabtn{
+    /* background-color: #7d3578;
+    color: #24248c; */
+    
+}
+.inptdiv button{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color:#b62ead ;
+}
+
+.inptdiv button:hover{
+    color: blue;
+}
+.datadiv{
+    left: 25px;
+    background-color: #b62ead;
+    padding:0px 3px 0px 5px ;
+    border-radius: 50px;
+}
+.tble{
+    overflow-y: hidden;
+}
+.dltbtn{
+    border: none;
+    outline: none;
+}
+
+.dltbtn:hover{
+    color: red;
+}
